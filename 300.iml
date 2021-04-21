@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="net.sf.json-lib:json-lib:2.2.3" level="project" />
+    <orderEntry type="library" name="commons-beanutils-1.7.0" level="project" />
+  </component>
+</module>
