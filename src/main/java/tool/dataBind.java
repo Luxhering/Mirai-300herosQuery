@@ -13,9 +13,13 @@ public class dataBind {
      * **/
     public void saveDataToFile(String fileName,String data) {
         BufferedWriter writer = null;
-        File file = new File("./300ICUData/"+ fileName + ".json");
+        File file = new File(fileName);
         if(!file.exists()){
             try {
+                File fileParent = file.getParentFile();
+                if (!fileParent.exists()){
+                    fileParent.mkdirs();//创建路径
+                }
                 file.createNewFile();
             } catch (IOException e) {
                 e.printStackTrace();
@@ -39,7 +43,7 @@ public class dataBind {
     }
     public String getDatafromFile(String fileName) {
 
-        String Path="./300ICUData/" + fileName+ ".json";
+        String Path= fileName;
         BufferedReader reader = null;
         String laststr = "";
         try {

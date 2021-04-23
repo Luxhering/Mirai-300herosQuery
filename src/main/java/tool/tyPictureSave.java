@@ -15,7 +15,7 @@ public class tyPictureSave {
      * **/
     public boolean downloadImg(InputStream inputStream,String name) throws IOException {
         boolean flag = true;
-        File file = new File("./data/Mirai-300query/300headPicture/"+name);
+        File file = new File(name);
         if (file.exists()){
             return flag;
         }

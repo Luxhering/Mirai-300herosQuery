@@ -1,0 +1,1479 @@
+[92m2021-04-16 11:29:00 I/Net 2504637063: Connected to server 42.81.172.147:443[0m
+[0m2021-04-16 11:29:00 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 11:29:00 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 11:29:00 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 11:29:00 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 11:29:00 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 11:29:00 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 11:29:00 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 11:29:00 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 11:29:00 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-16 11:29:00 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-16 11:29:00 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 11:29:00 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 11:29:00 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 11:29:01 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@37ecde81[0m
+[92m2021-04-16 11:29:01 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 11:29:01 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 11:29:01 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 11:29:01 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 11:29:01 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 11:29:01 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 11:29:01 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 11:29:01 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 11:29:01 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 11:29:01 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 11:29:01 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 11:29:01 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-16 11:29:01 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[92m2021-04-16 11:29:01 I/Net 2504637063: Syncing friend message history...[0m
+[0m2021-04-16 11:29:01 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-16 11:29:01 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-16 11:29:01 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-16 11:29:03 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 11:29:03 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 11:29:03 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-16 11:29:03 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 11:29:03 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 11:29:03 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-16 11:29:24 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 11:29:24 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 11:29:31 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[92m2021-04-16 11:30:59 I/Net 2504637063: Connected to server 42.81.169.46:8080[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 11:31:00 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 11:31:00 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 11:31:00 I/Net 2504637063: Start loading stranger list...[0m
+[92m2021-04-16 11:31:00 I/Net 2504637063: Start loading group list...[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@1f780201[0m
+[92m2021-04-16 11:31:00 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 11:31:00 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 11:31:00 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 11:31:01 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 11:31:01 I/Net 2504637063: Successfully loaded group list: 2 in total.[0m
+[92m2021-04-16 11:31:01 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 11:31:01 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 11:31:01 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-16 11:31:01 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-16 11:31:01 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-16 11:31:03 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 11:31:03 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 11:31:03 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 11:31:03 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-16 11:31:03 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 11:31:04 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[92m2021-04-16 11:32:21 I/Net 2504637063: Connected to server msfwifi.3g.qq.com:8080[0m
+[0m2021-04-16 11:32:21 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 11:32:21 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 11:32:21 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 11:32:21 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 11:32:21 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 11:32:21 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 11:32:22 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 11:32:22 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 11:32:22 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-16 11:32:22 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-16 11:32:22 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 11:32:22 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 11:32:22 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 11:32:22 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 11:32:22 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 11:32:22 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 11:32:22 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@57397da1[0m
+[92m2021-04-16 11:32:22 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 11:32:22 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 11:32:22 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 11:32:22 I/Net 2504637063: Successfully loaded group list: 2 in total.[0m
+[0m2021-04-16 11:32:22 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 11:32:22 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 11:32:22 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[92m2021-04-16 11:32:22 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 11:32:22 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 11:32:22 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[92m2021-04-16 11:32:23 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-16 11:32:24 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 11:32:24 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 11:32:24 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-16 11:32:24 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 11:32:24 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 11:32:24 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-16 11:32:32 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 11:32:32 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[92m2021-04-16 11:35:26 I/Net 2504637063: Connected to server msfwifi.3g.qq.com:8080[0m
+[0m2021-04-16 11:35:26 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 11:35:26 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 11:35:26 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 11:35:26 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 11:35:26 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 11:35:26 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 11:35:26 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 11:35:26 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 11:35:26 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-16 11:35:26 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-16 11:35:26 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 11:35:26 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 11:35:26 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 11:35:26 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@62e3218c[0m
+[92m2021-04-16 11:35:26 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 11:35:27 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 11:35:27 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 11:35:27 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 11:35:27 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 11:35:27 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 11:35:27 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 11:35:27 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 11:35:27 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 11:35:27 I/Net 2504637063: Successfully loaded group list: 2 in total.[0m
+[92m2021-04-16 11:35:27 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 11:35:27 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 11:35:27 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[92m2021-04-16 11:35:27 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-16 11:35:29 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 11:35:29 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 11:35:29 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 11:35:29 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[31m2021-04-16 11:35:31 E/Net 2504637063: Exception in NetworkHandler
+java.lang.IllegalArgumentException: Illegal imageId: https://300report.jumpw.com/static/images/herohead/chara_0042.png. ImageId must match Regex `/[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}`, `/[0-9]*-[0-9]*-[0-9a-fA-F]{32}` or `\{[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}\}\..{3,5}`
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.IllegalArgumentException: Illegal imageId: https://300report.jumpw.com/static/images/herohead/chara_0042.png. ImageId must match Regex `/[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}`, `/[0-9]*-[0-9]*-[0-9a-fA-F]{32}` or `\{[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}\}\..{3,5}`
+	at net.mamoe.mirai.internal.MiraiImpl.createImage(MiraiImpl.kt:916)
+	at net.mamoe.mirai.message.data.Image$Key.fromId(Image.kt:126)
+	at net.mamoe.mirai.message.data.Image.fromId(Image.kt)
+	at test.test.lambda$main$0(test.java:40)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[31m2021-04-16 11:35:37 E/Net 2504637063: Exception in NetworkHandler
+java.lang.IllegalArgumentException: Illegal imageId: https://300report.jumpw.com/static/images/herohead/chara_0042.png. ImageId must match Regex `/[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}`, `/[0-9]*-[0-9]*-[0-9a-fA-F]{32}` or `\{[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}\}\..{3,5}`
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.IllegalArgumentException: Illegal imageId: https://300report.jumpw.com/static/images/herohead/chara_0042.png. ImageId must match Regex `/[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}`, `/[0-9]*-[0-9]*-[0-9a-fA-F]{32}` or `\{[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}\}\..{3,5}`
+	at net.mamoe.mirai.internal.MiraiImpl.createImage(MiraiImpl.kt:916)
+	at net.mamoe.mirai.message.data.Image$Key.fromId(Image.kt:126)
+	at net.mamoe.mirai.message.data.Image.fromId(Image.kt)
+	at test.test.lambda$main$0(test.java:40)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[92m2021-04-16 11:36:29 I/Net 2504637063: Connected to server 42.81.172.147:443[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 11:36:29 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 11:36:29 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 11:36:29 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-16 11:36:29 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@23b25e74[0m
+[92m2021-04-16 11:36:29 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 11:36:29 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 11:36:29 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 11:36:30 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 11:36:30 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 11:36:30 I/Net 2504637063: Successfully loaded group list: 2 in total.[0m
+[92m2021-04-16 11:36:30 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 11:36:30 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 11:36:30 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[92m2021-04-16 11:36:30 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-16 11:36:32 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 11:36:32 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 11:36:32 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 11:36:32 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[31m2021-04-16 11:36:37 E/Net 2504637063: Exception in NetworkHandler
+java.lang.IllegalArgumentException: Illegal imageId: https://300report.jumpw.com/static/images/herohead/chara_0042.png. ImageId must match Regex `/[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}`, `/[0-9]*-[0-9]*-[0-9a-fA-F]{32}` or `\{[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}\}\..{3,5}`
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.IllegalArgumentException: Illegal imageId: https://300report.jumpw.com/static/images/herohead/chara_0042.png. ImageId must match Regex `/[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}`, `/[0-9]*-[0-9]*-[0-9a-fA-F]{32}` or `\{[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}\}\..{3,5}`
+	at net.mamoe.mirai.internal.MiraiImpl.createImage(MiraiImpl.kt:916)
+	at net.mamoe.mirai.message.data.Image$Key.fromId(Image.kt:126)
+	at net.mamoe.mirai.message.data.Image.fromId(Image.kt)
+	at test.test.lambda$main$0(test.java:40)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[0m2021-04-16 11:40:59 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 11:40:59 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-16 11:45:29 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 11:45:29 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-16 11:49:59 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 11:49:59 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[92m2021-04-16 11:53:14 I/Net 2504637063: Connected to server 42.81.172.81:80[0m
+[0m2021-04-16 11:53:14 V/Net 2504637063: Send: wtlogin.login[0m
+[92m2021-04-16 12:40:27 I/Net 2504637063: Connected to server 42.81.169.46:8080[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 12:40:27 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 12:40:27 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 12:40:27 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-16 12:40:27 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@37db5eba[0m
+[92m2021-04-16 12:40:27 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 12:40:27 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 12:40:27 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 12:40:28 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 12:40:28 I/Net 2504637063: Successfully loaded group list: 2 in total.[0m
+[92m2021-04-16 12:40:28 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 12:40:28 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 12:40:28 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[92m2021-04-16 12:40:28 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-16 12:40:30 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 12:40:30 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 12:40:30 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-16 12:40:30 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 12:40:30 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 12:40:30 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[31m2021-04-16 12:40:34 E/Net 2504637063: Exception in NetworkHandler
+java.lang.IllegalArgumentException: Illegal imageId: https://300report.jumpw.com/static/images/herohead/chara_0042.png. ImageId must match Regex `/[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}`, `/[0-9]*-[0-9]*-[0-9a-fA-F]{32}` or `\{[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}\}\..{3,5}`
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.IllegalArgumentException: Illegal imageId: https://300report.jumpw.com/static/images/herohead/chara_0042.png. ImageId must match Regex `/[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}`, `/[0-9]*-[0-9]*-[0-9a-fA-F]{32}` or `\{[0-9a-fA-F]{8}-([0-9a-fA-F]{4}-){3}[0-9a-fA-F]{12}\}\..{3,5}`
+	at net.mamoe.mirai.internal.MiraiImpl.createImage(MiraiImpl.kt:916)
+	at net.mamoe.mirai.message.data.Image$Key.fromId(Image.kt:126)
+	at net.mamoe.mirai.message.data.Image.fromId(Image.kt)
+	at test.test.lambda$main$0(test.java:39)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[0m2021-04-16 12:44:57 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 12:44:57 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-16 12:49:27 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 12:49:27 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[92m2021-04-16 14:00:35 I/Net 2504637063: Connected to server 42.81.172.22:80[0m
+[0m2021-04-16 14:00:35 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 14:00:35 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 14:00:35 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 14:00:35 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 14:00:35 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 14:00:35 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 14:00:35 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 14:00:35 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 14:00:35 I/Net 2504637063: Start loading stranger list...[0m
+[92m2021-04-16 14:00:35 I/Net 2504637063: Start loading group list...[0m
+[0m2021-04-16 14:00:35 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 14:00:35 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 14:00:35 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 14:00:35 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@1f82c3c0[0m
+[92m2021-04-16 14:00:35 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 14:00:36 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 14:00:36 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 14:00:36 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 14:00:36 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 14:00:36 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 14:00:36 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 14:00:36 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 14:00:36 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 14:00:36 I/Net 2504637063: Successfully loaded group list: 2 in total.[0m
+[92m2021-04-16 14:00:36 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 14:00:36 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 14:00:36 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[92m2021-04-16 14:00:36 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-16 14:00:38 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 14:00:38 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 14:00:38 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-16 14:00:38 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 14:00:38 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 14:00:38 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-16 14:00:54 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-16 14:00:54 V/Net 2504637063: Recv: Failed(resultCode=199, message=para error)[0m
+[31m2021-04-16 14:00:54 E/Net 2504637063: Exception in NetworkHandler
+java.lang.IllegalStateException: upload group image failed with reason para error
+	at net.mamoe.mirai.internal.contact.GroupImpl.uploadImage(GroupImpl.kt:257)
+	at net.mamoe.mirai.internal.contact.GroupImpl$uploadImage$1.invokeSuspend(GroupImpl.kt)
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.IllegalStateException: upload group image failed with reason para error
+	at net.mamoe.mirai.internal.contact.GroupImpl.uploadImage(GroupImpl.kt:257)
+	at net.mamoe.mirai.internal.contact.GroupImpl$uploadImage$1.invokeSuspend(GroupImpl.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:32)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:113)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:362)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:396)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:388)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:293)
+	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1411)
+	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)
+	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)
+	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:853)
+	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:803)
+	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$PacketListener.complete(QQAndroidBotNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:600)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invoke(QQAndroidBotNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:275)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.generifiedParsePacket(QQAndroidBotNetworkHandler.kt:562)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacket(QQAndroidBotNetworkHandler.kt:557)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[0m2021-04-16 14:05:05 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 14:05:05 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-16 14:09:35 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 14:09:35 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[92m2021-04-16 14:12:28 I/Net 2504637063: Connected to server 114.221.144.215:80[0m
+[0m2021-04-16 14:12:28 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 14:12:29 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 14:12:29 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 14:12:29 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-16 14:12:29 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@7d5fdb2b[0m
+[92m2021-04-16 14:12:29 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 14:12:29 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 14:12:29 I/Net 2504637063: Successfully loaded group list: 2 in total.[0m
+[92m2021-04-16 14:12:29 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 14:12:29 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 14:12:29 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[92m2021-04-16 14:12:30 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-16 14:12:32 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 14:12:32 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 14:12:32 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-16 14:12:32 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 14:12:32 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 14:12:32 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-16 14:13:01 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 14:13:01 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 14:13:17 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 14:13:17 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 14:13:53 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 14:13:53 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 14:14:34 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 14:14:35 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 14:15:19 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 14:15:19 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 14:15:27 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 14:15:27 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 14:15:31 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 14:15:32 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 14:16:59 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 14:16:59 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-16 14:21:21 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 14:21:21 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 14:21:23 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 14:21:23 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 14:21:29 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 14:21:29 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-16 14:21:42 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 14:21:42 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 14:22:20 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 14:22:20 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[92m2021-04-16 14:23:00 I/Net 2504637063: Connected to server 42.81.172.81:80[0m
+[0m2021-04-16 14:23:00 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 14:23:00 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 14:23:00 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 14:23:01 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 14:23:01 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-16 14:23:01 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@1cbafcd1[0m
+[92m2021-04-16 14:23:01 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 14:23:01 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 14:23:01 I/Net 2504637063: Successfully loaded group list: 2 in total.[0m
+[92m2021-04-16 14:23:01 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 14:23:01 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 14:23:01 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[92m2021-04-16 14:23:01 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-16 14:23:04 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 14:23:04 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 14:23:04 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-16 14:23:04 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 14:23:04 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 14:23:04 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-16 14:23:10 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 14:23:10 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 14:27:31 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 14:27:31 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-16 14:32:01 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 14:32:01 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-16 14:36:31 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 14:36:31 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[92m2021-04-16 14:39:46 I/Net 2504637063: Connected to server msfwifi.3g.qq.com:8080[0m
+[0m2021-04-16 14:39:46 V/Net 2504637063: Send: wtlogin.login[0m
+[92m2021-04-16 14:53:13 I/Net 2504637063: Connected to server msfwifi.3g.qq.com:8080[0m
+[0m2021-04-16 14:53:13 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 14:53:13 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 14:53:13 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 14:53:13 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 14:53:13 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 14:53:13 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 14:53:13 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 14:53:13 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 14:53:13 I/Net 2504637063: Start loading stranger list...[0m
+[92m2021-04-16 14:53:13 I/Net 2504637063: Start loading group list...[0m
+[0m2021-04-16 14:53:13 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 14:53:13 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 14:53:13 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 14:53:13 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@538fdabe[0m
+[92m2021-04-16 14:53:13 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 14:53:13 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 14:53:13 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 14:53:13 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 14:53:13 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 14:53:14 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 14:53:14 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 14:53:14 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 14:53:14 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 14:53:14 I/Net 2504637063: Successfully loaded group list: 2 in total.[0m
+[92m2021-04-16 14:53:14 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 14:53:14 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 14:53:14 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[92m2021-04-16 14:53:14 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-16 14:53:16 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 14:53:16 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 14:53:16 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-16 14:53:17 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 14:53:17 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 14:53:17 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-16 14:53:25 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-16 14:53:25 V/Net 2504637063: Recv: RequireUpload(fileId=2784323006, uKey=[0, 95, -95, 41, -43, -74, -29, 33, -104, 14, -62, 53, 31, -73, -52, 95, -84, 39, 1, 9, 116, -49, -26, -94, -101, 103, 48, 49, 124, -63, 62, 40, -126, 108, 75, 113, 61, 75, -35, 92, -14, 73, -122, -70, 89, -5, -126, -73, 94, -84, -24, 2, 115, 103, -46, -72, 36, 76, 51, -34, -56, 80, -25, 118, 24, 64, 77, 106, -33, -30, -36, 99, -64, -9, -4, 42, 7, -71, 85, -39, -78, 14, 89, -32, 126, 66, 12, 111, 58, 102, -68, 95, 77, -84, 88, 89, 10, -65, -58, 4, 12, -66, 102, 70, 3, -12, -93, -43, -1, -79, -83, 59, -88, -116, 59, 121, -80, -64, 70, 67, 56, -99, -53, -112, 114, 10, 99, 2])[0m
+[0m2021-04-16 14:53:25 V/Net 2504637063: [Highway] Uploading group image to 157.255.243.94:8080, size=39.68 KiB[0m
+[0m2021-04-16 14:53:25 V/Net 2504637063: [Highway] Uploading group image: succeed at 98 KiB/s[0m
+[0m2021-04-16 14:53:29 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-16 14:53:29 V/Net 2504637063: Recv: FileExists(fileId=3099822228, fileInfo=ImgInfo(fileMd5=[-102, 124, 103, 12, 120, -89, 1, -17, 34, -9, -89, 97, 117, 120, -3, 54], fileType=1000, fileSize=40636, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-16 14:53:30 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-16 14:53:30 V/Net 2504637063: Recv: FileExists(fileId=2167425294, fileInfo=ImgInfo(fileMd5=[-102, 124, 103, 12, 120, -89, 1, -17, 34, -9, -89, 97, 117, 120, -3, 54], fileType=1000, fileSize=40636, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-16 14:57:43 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 14:57:43 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-16 15:02:13 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 15:02:13 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-16 15:06:43 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 15:06:43 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[92m2021-04-16 15:09:58 I/Net 2504637063: Connected to server 42.81.172.22:80[0m
+[0m2021-04-16 15:09:58 V/Net 2504637063: Send: wtlogin.login[0m
+[92m2021-04-16 15:15:54 I/Net 2504637063: Connected to server 42.81.172.22:80[0m
+[0m2021-04-16 15:15:54 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 15:15:55 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 15:15:55 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 15:15:55 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-16 15:15:55 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@2c82ed0e[0m
+[92m2021-04-16 15:15:55 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 15:15:55 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 15:15:55 I/Net 2504637063: Successfully loaded group list: 2 in total.[0m
+[92m2021-04-16 15:15:55 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 15:15:55 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 15:15:55 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[92m2021-04-16 15:15:56 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-16 15:15:58 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 15:15:58 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 15:15:58 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-16 15:15:58 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 15:15:58 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 15:15:58 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-16 15:16:13 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-16 15:16:13 V/Net 2504637063: Recv: Failed(resultCode=199, message=para error)[0m
+[31m2021-04-16 15:16:13 E/Net 2504637063: Exception in NetworkHandler
+java.lang.IllegalStateException: upload group image failed with reason para error
+	at net.mamoe.mirai.internal.contact.GroupImpl.uploadImage(GroupImpl.kt:257)
+	at net.mamoe.mirai.internal.contact.GroupImpl$uploadImage$1.invokeSuspend(GroupImpl.kt)
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.IllegalStateException: upload group image failed with reason para error
+	at net.mamoe.mirai.internal.contact.GroupImpl.uploadImage(GroupImpl.kt:257)
+	at net.mamoe.mirai.internal.contact.GroupImpl$uploadImage$1.invokeSuspend(GroupImpl.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:32)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:113)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:362)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:396)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:388)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:293)
+	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1411)
+	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)
+	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)
+	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:853)
+	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:803)
+	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$PacketListener.complete(QQAndroidBotNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:600)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invoke(QQAndroidBotNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:275)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.generifiedParsePacket(QQAndroidBotNetworkHandler.kt:562)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacket(QQAndroidBotNetworkHandler.kt:557)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[0m2021-04-16 15:20:25 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 15:20:25 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-16 15:24:55 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 15:24:55 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-16 15:29:25 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 15:29:25 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[92m2021-04-16 15:32:39 I/Net 2504637063: Connected to server 42.81.172.81:80[0m
+[0m2021-04-16 15:32:39 V/Net 2504637063: Send: wtlogin.login[0m
+[92m2021-04-16 15:36:04 I/Net 2504637063: Connected to server 42.81.169.46:8080[0m
+[0m2021-04-16 15:36:04 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 15:36:04 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 15:36:04 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 15:36:04 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 15:36:04 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 15:36:04 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 15:36:04 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 15:36:04 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 15:36:04 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-16 15:36:04 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-16 15:36:04 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 15:36:04 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 15:36:04 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 15:36:04 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@54697b01[0m
+[92m2021-04-16 15:36:04 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 15:36:04 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 15:36:04 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 15:36:04 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 15:36:05 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 15:36:05 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 15:36:05 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 15:36:05 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 15:36:05 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 15:36:05 I/Net 2504637063: Successfully loaded group list: 2 in total.[0m
+[92m2021-04-16 15:36:05 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 15:36:05 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 15:36:05 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[92m2021-04-16 15:36:05 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-16 15:36:07 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 15:36:07 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 15:36:07 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-16 15:36:07 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 15:36:07 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 15:36:07 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-16 15:36:10 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-16 15:36:10 V/Net 2504637063: Recv: Failed(resultCode=199, message=para error)[0m
+[31m2021-04-16 15:36:10 E/Net 2504637063: Exception in NetworkHandler
+java.lang.IllegalStateException: upload group image failed with reason para error
+	at net.mamoe.mirai.internal.contact.GroupImpl.uploadImage(GroupImpl.kt:257)
+	at net.mamoe.mirai.internal.contact.GroupImpl$uploadImage$1.invokeSuspend(GroupImpl.kt)
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.IllegalStateException: upload group image failed with reason para error
+	at net.mamoe.mirai.internal.contact.GroupImpl.uploadImage(GroupImpl.kt:257)
+	at net.mamoe.mirai.internal.contact.GroupImpl$uploadImage$1.invokeSuspend(GroupImpl.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:32)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:113)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:362)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:396)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:388)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:293)
+	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1411)
+	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)
+	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)
+	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:853)
+	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:803)
+	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$PacketListener.complete(QQAndroidBotNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:600)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invoke(QQAndroidBotNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:275)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.generifiedParsePacket(QQAndroidBotNetworkHandler.kt:562)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacket(QQAndroidBotNetworkHandler.kt:557)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[0m2021-04-16 15:36:12 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-16 15:36:12 V/Net 2504637063: Recv: Failed(resultCode=199, message=para error)[0m
+[31m2021-04-16 15:36:12 E/Net 2504637063: Exception in NetworkHandler
+java.lang.IllegalStateException: upload group image failed with reason para error
+	at net.mamoe.mirai.internal.contact.GroupImpl.uploadImage(GroupImpl.kt:257)
+	at net.mamoe.mirai.internal.contact.GroupImpl$uploadImage$1.invokeSuspend(GroupImpl.kt)
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.IllegalStateException: upload group image failed with reason para error
+	at net.mamoe.mirai.internal.contact.GroupImpl.uploadImage(GroupImpl.kt:257)
+	at net.mamoe.mirai.internal.contact.GroupImpl$uploadImage$1.invokeSuspend(GroupImpl.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:32)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:113)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTaskKt.resume(DispatchedTask.kt:178)
+	at kotlinx.coroutines.DispatchedTaskKt.dispatch(DispatchedTask.kt:166)
+	at kotlinx.coroutines.CancellableContinuationImpl.dispatchResume(CancellableContinuationImpl.kt:362)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl(CancellableContinuationImpl.kt:396)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeImpl$default(CancellableContinuationImpl.kt:388)
+	at kotlinx.coroutines.CancellableContinuationImpl.resumeWith(CancellableContinuationImpl.kt:293)
+	at kotlinx.coroutines.ResumeAwaitOnCompletion.invoke(JobSupport.kt:1411)
+	at kotlinx.coroutines.JobSupport.completeStateFinalization(JobSupport.kt:318)
+	at kotlinx.coroutines.JobSupport.tryFinalizeSimpleState(JobSupport.kt:295)
+	at kotlinx.coroutines.JobSupport.tryMakeCompleting(JobSupport.kt:853)
+	at kotlinx.coroutines.JobSupport.makeCompleting$kotlinx_coroutines_core(JobSupport.kt:803)
+	at kotlinx.coroutines.CompletableDeferredImpl.complete(CompletableDeferred.kt:92)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$PacketListener.complete(QQAndroidBotNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:600)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invoke(QQAndroidBotNetworkHandler.kt)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:275)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.generifiedParsePacket(QQAndroidBotNetworkHandler.kt:562)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacket(QQAndroidBotNetworkHandler.kt:557)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[0m2021-04-16 15:40:34 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 15:40:34 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[92m2021-04-16 16:09:31 I/Net 2504637063: Connected to server 42.81.169.46:8080[0m
+[0m2021-04-16 16:09:31 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 16:09:32 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 16:09:32 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 16:09:32 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-16 16:09:32 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@1efacc1d[0m
+[92m2021-04-16 16:09:32 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 16:09:32 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 16:09:32 I/Net 2504637063: Successfully loaded group list: 2 in total.[0m
+[92m2021-04-16 16:09:32 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 16:09:32 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 16:09:32 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[92m2021-04-16 16:09:33 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-16 16:09:35 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 16:09:35 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 16:09:35 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-16 16:09:35 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 16:09:35 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 16:09:35 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-16 16:09:50 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-16 16:09:50 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@560287a6)[0m
+[0m2021-04-16 16:09:50 V/Net 2504637063: [Highway] Uploading group long message to 157.255.243.94:8080, size=669 B[0m
+[0m2021-04-16 16:09:50 V/Net 2504637063: [Highway] Uploading group long message: succeed at 3 KiB/s[0m
+[0m2021-04-16 16:09:50 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 16:09:50 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[92m2021-04-16 16:11:56 I/Net 2504637063: Connected to server 42.81.172.81:80[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 16:11:56 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 16:11:56 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 16:11:56 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-16 16:11:56 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@78beafcd[0m
+[92m2021-04-16 16:11:56 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 16:11:56 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 16:11:56 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 16:11:57 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 16:11:57 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 16:11:57 I/Net 2504637063: Successfully loaded group list: 2 in total.[0m
+[92m2021-04-16 16:11:57 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 16:11:57 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 16:11:57 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[92m2021-04-16 16:11:57 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-16 16:11:59 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 16:11:59 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 16:11:59 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 16:11:59 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-16 16:12:20 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-16 16:12:21 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@48e07854)[0m
+[0m2021-04-16 16:12:21 V/Net 2504637063: [Highway] Uploading group long message to 157.255.196.94:8080, size=685 B[0m
+[0m2021-04-16 16:12:21 V/Net 2504637063: [Highway] Uploading group long message: succeed at 4 KiB/s[0m
+[0m2021-04-16 16:12:21 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 16:12:21 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 16:13:44 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-16 16:13:44 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@30f92201)[0m
+[0m2021-04-16 16:13:44 V/Net 2504637063: [Highway] Uploading group long message to 61.241.43.180:8080, size=741 B[0m
+[0m2021-04-16 16:13:44 V/Net 2504637063: [Highway] Uploading group long message: succeed at 4 KiB/s[0m
+[0m2021-04-16 16:13:44 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 16:13:44 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 16:14:32 V/Net 2504637063: Recv: RequestPushNotify(uin=2504637063, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=33, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@7abe7641)[0m
+[0m2021-04-16 16:14:32 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-16 16:14:32 V/Net 2504637063: Recv: RequestPushNotify(uin=2504637063, ctype=1, strService=MessageSvc, strCmd=PushNotify, usMsgType=87, stMsgInfo=net.mamoe.mirai.internal.network.protocol.data.jce.MsgInfo@1e15ab44)[0m
+[0m2021-04-16 16:14:32 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-16 16:14:32 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-04-16 16:14:32 V/Net 2504637063: Send: ProfileService.Pb.ReqSystemMsgNew.Group[0m
+[0m2021-04-16 16:14:32 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 16:14:32 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[0m2021-04-16 16:14:32 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 16:14:32 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 16:14:32 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:14:32 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[31m2021-04-16 16:14:39 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -16
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -16
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:63)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[0m2021-04-16 16:14:41 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[31m2021-04-16 16:14:47 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -20
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -20
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:63)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[31m2021-04-16 16:14:51 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -20
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -20
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:63)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[31m2021-04-16 16:15:22 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -13
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -13
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:63)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[92m2021-04-16 16:15:30 I/Net 2504637063: Connected to server 42.81.172.22:80[0m
+[0m2021-04-16 16:15:30 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 16:15:30 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 16:15:30 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 16:15:31 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 16:15:31 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-16 16:15:31 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@13561c2f[0m
+[92m2021-04-16 16:15:31 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 16:15:31 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 16:15:31 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-16 16:15:31 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 16:15:31 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 16:15:31 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[92m2021-04-16 16:15:31 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-16 16:15:34 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 16:15:34 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 16:15:34 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 16:15:34 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-16 16:16:19 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-16 16:16:19 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@7281c72f)[0m
+[0m2021-04-16 16:16:19 V/Net 2504637063: [Highway] Uploading group long message to 61.241.43.180:8080, size=731 B[0m
+[0m2021-04-16 16:16:19 V/Net 2504637063: [Highway] Uploading group long message: succeed at 4 KiB/s[0m
+[0m2021-04-16 16:16:19 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 16:16:19 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[31m2021-04-16 16:16:42 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -19
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -19
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:63)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[0m2021-04-16 16:16:50 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-16 16:16:50 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@74cab892)[0m
+[0m2021-04-16 16:16:50 V/Net 2504637063: [Highway] Uploading group long message to 157.255.243.94:8080, size=743 B[0m
+[0m2021-04-16 16:16:50 V/Net 2504637063: [Highway] Uploading group long message: succeed at 4 KiB/s[0m
+[0m2021-04-16 16:16:50 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 16:16:50 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 16:16:51 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[96m2021-04-16 16:16:51 D/Net 2504637063: Unknown Transformers528 0x14 template
+templId=1065
+PermList=[TemplParam#1609189012 {
+            name=68 6F 6E 6F 72 5F 69 6D 67
+            value=68 74 74 70 73 3A 2F 2F 71 7A 6F 6E 65 73 74 79 6C 65 2E 67 74 69 6D 67 2E 63 6E 2F 61 6F 69 2F 73 6F 6C 61 2F 32 30 32 30 30 32 32 34 31 34 35 33 34 37 5F 6C 32 73 4C 67 64 6C 57 67 52 2E 70 6E 67
+    }, TemplParam#1609189012 {
+            name=68 6F 6E 6F 72 5F 6E 61 6D 65
+            value=E5 86 92 E5 B0 96 E5 B0 8F E6 98 A5 E7 AC 8B
+    }, TemplParam#1609189012 {
+            name=68 6F 6E 6F 72 5F 75 72 6C
+            value=68 74 74 70 73 3A 2F 2F 71 75 6E 2E 71 71 2E 63 6F 6D 2F 69 6E 74 65 72 61 63 74 69 76 65 2F 71 75 6E 68 6F 6E 6F 72 3F 67 63 3D 38 36 39 33 37 31 36 30 36 26 61 6D 70 3B 5F 77 76 3D 33 26 61 6D 70 3B 5F 77 77 76 3D 31 32 38
+    }][0m
+[0m2021-04-16 16:16:51 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:16:52 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:16:59 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:16:59 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:17:02 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[31m2021-04-16 16:17:23 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -15
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -15
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:63)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[31m2021-04-16 16:17:45 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -11
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -11
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:63)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[31m2021-04-16 16:17:56 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -14
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -14
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:63)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[0m2021-04-16 16:18:04 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-16 16:18:04 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@2491385e)[0m
+[0m2021-04-16 16:18:04 V/Net 2504637063: [Highway] Uploading group long message to 61.241.43.180:8080, size=685 B[0m
+[0m2021-04-16 16:18:04 V/Net 2504637063: [Highway] Uploading group long message: succeed at 4 KiB/s[0m
+[0m2021-04-16 16:18:04 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 16:18:04 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 16:18:17 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:18:25 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:18:26 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[31m2021-04-16 16:18:31 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -15
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -15
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:63)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[0m2021-04-16 16:18:34 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:18:41 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-16 16:18:41 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@cb0ddc1)[0m
+[0m2021-04-16 16:18:41 V/Net 2504637063: [Highway] Uploading group long message to 61.241.43.180:8080, size=741 B[0m
+[0m2021-04-16 16:18:42 V/Net 2504637063: [Highway] Uploading group long message: succeed at 5 KiB/s[0m
+[0m2021-04-16 16:18:42 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 16:18:42 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[31m2021-04-16 16:19:04 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -14
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -14
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:63)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[31m2021-04-16 16:19:17 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -13
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -13
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:63)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[0m2021-04-16 16:19:25 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:19:33 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:20:01 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 16:20:01 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-16 16:20:28 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:20:37 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[92m2021-04-16 16:20:55 I/Net 2504637063: Connected to server 125.94.60.146:80[0m
+[0m2021-04-16 16:20:55 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-16 16:20:56 I/Net 2504637063: Login successful[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-16 16:20:56 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-16 16:20:56 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-16 16:20:56 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[96m2021-04-16 16:20:56 D/Net 2504637063: Received unknown commandName: MultiVideo.s2c[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@4f42415d[0m
+[92m2021-04-16 16:20:56 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-16 16:20:56 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-16 16:20:56 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-16 16:20:56 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-16 16:20:56 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-16 16:20:56 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[92m2021-04-16 16:20:56 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-16 16:20:59 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 16:20:59 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-16 16:20:59 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-16 16:20:59 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-16 16:20:59 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-16 16:20:59 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-16 16:21:04 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-16 16:21:04 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@68b1d883)[0m
+[0m2021-04-16 16:21:04 V/Net 2504637063: [Highway] Uploading group long message to 157.255.243.94:8080, size=802 B[0m
+[0m2021-04-16 16:21:04 V/Net 2504637063: [Highway] Uploading group long message: succeed at 5 KiB/s[0m
+[0m2021-04-16 16:21:04 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-16 16:21:04 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-16 16:21:32 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:21:40 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:22:35 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:22:44 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:23:39 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:23:47 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:24:43 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:24:51 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:25:26 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-16 16:25:26 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-16 16:25:46 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:25:55 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:26:49 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-16 16:26:58 V/Net 2504637063: Send: OnlinePush.RespPush[0m

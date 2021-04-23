@@ -6,6 +6,7 @@ import net.mamoe.mirai.console.plugin.jvm.JavaPlugin;
 import net.mamoe.mirai.console.plugin.jvm.JvmPluginDescriptionBuilder;
 import net.mamoe.mirai.event.GlobalEventChannel;
 import net.mamoe.mirai.event.events.GroupMessageEvent;
+import tool.initData;
 
 import java.io.IOException;
 
@@ -22,6 +23,7 @@ public final class Plugin extends JavaPlugin {
     public void onEnable() {
         System.out.println(getConfigFolder());
         getLogger().info("300icu专用插件");
+        initData.init();
         qinYe qinYe = new qinYe();
         TYMatchQuery tyMatchQuery = new TYMatchQuery();
         GlobalEventChannel.INSTANCE.subscribeAlways(GroupMessageEvent.class, event -> {

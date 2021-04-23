@@ -1,0 +1,856 @@
+[92m2021-04-15 09:30:37 I/Net 2504637063: Connected to server 114.221.144.215:80[0m
+[0m2021-04-15 09:30:37 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 09:30:37 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 09:30:37 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 09:30:37 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-15 09:30:38 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 09:30:38 I/Net 2504637063: Start loading stranger list...[0m
+[92m2021-04-15 09:30:38 I/Net 2504637063: Start loading group list...[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@6d5aa553[0m
+[92m2021-04-15 09:30:38 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-15 09:30:38 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 09:30:38 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 09:30:38 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-15 09:30:38 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-15 09:30:38 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 09:30:39 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 09:30:39 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-15 09:30:41 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 09:30:41 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 09:30:41 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-15 09:30:41 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 09:30:41 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 09:30:41 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 09:31:13 I/Net 2504637063: Connected to server 42.81.172.147:443[0m
+[0m2021-04-15 09:31:13 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 09:31:13 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 09:31:13 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 09:31:13 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-15 09:31:14 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 09:31:14 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-15 09:31:14 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@3bb752b0[0m
+[92m2021-04-15 09:31:14 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-15 09:31:14 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 09:31:14 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 09:31:14 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-15 09:31:14 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 09:31:14 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 09:31:14 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-15 09:31:17 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 09:31:17 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 09:31:17 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-15 09:31:17 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 09:31:17 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 09:31:17 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-15 09:32:00 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-15 09:32:08 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-15 09:33:45 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 09:33:46 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 09:33:51 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-15 09:33:59 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-15 09:34:41 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 09:34:41 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 09:35:28 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-15 09:35:31 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-15 09:35:36 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-15 09:35:37 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 09:35:37 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 09:35:40 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-15 09:35:44 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-15 09:35:44 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-15 09:35:44 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-15 09:35:53 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-15 09:37:17 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 09:37:17 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 09:40:14 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-15 09:40:14 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-15 09:40:29 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 09:40:29 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 09:41:56 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 09:41:56 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 09:44:44 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-15 09:44:44 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-15 09:47:36 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 09:47:36 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 09:49:14 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-15 09:49:14 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-15 09:53:44 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-15 09:53:44 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-15 09:56:39 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 09:56:39 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 09:57:16 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 09:57:17 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 09:58:14 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-15 09:58:14 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[92m2021-04-15 10:00:38 I/Net 2504637063: Connected to server 42.81.172.147:443[0m
+[0m2021-04-15 10:00:38 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 10:00:38 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 10:00:38 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 10:00:38 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-15 10:00:39 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 10:00:39 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-15 10:00:39 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@63b496ce[0m
+[92m2021-04-15 10:00:39 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Loading friend list: 9/9[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[92m2021-04-15 10:00:39 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 10:00:39 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 10:00:39 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-15 10:00:39 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 10:00:39 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 10:00:39 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-15 10:00:42 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 10:00:42 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 10:00:42 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-15 10:00:42 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 10:00:42 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 10:00:42 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-15 10:02:38 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 10:02:38 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 10:02:55 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 10:02:55 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 10:03:19 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 10:03:20 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 10:05:09 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-15 10:05:09 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-15 10:09:39 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-15 10:09:39 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-15 10:14:09 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-15 10:14:09 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-15 10:18:39 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-15 10:18:44 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[92m2021-04-15 10:18:49 I/Net 2504637063: Connected to server 42.81.172.81:80[0m
+[0m2021-04-15 10:18:49 V/Net 2504637063: Send: wtlogin.login[0m
+[92m2021-04-15 17:14:05 I/Net 2504637063: Connected to server 42.81.172.147:443[0m
+[0m2021-04-15 17:14:05 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 17:14:05 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 17:14:05 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 17:14:05 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 17:14:05 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 17:14:05 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 17:14:05 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-15 17:14:05 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 17:14:05 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-15 17:14:05 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-15 17:14:05 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 17:14:05 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 17:14:05 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-15 17:14:06 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@65728bd8[0m
+[92m2021-04-15 17:14:06 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 17:14:06 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:14:06 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:14:06 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:14:06 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:14:06 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:14:06 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-15 17:14:06 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 17:14:06 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:14:06 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:14:06 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 17:14:06 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 17:14:06 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-15 17:14:06 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-15 17:14:06 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 17:14:06 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 17:14:06 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-15 17:14:08 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 17:14:08 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 17:14:08 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-15 17:14:08 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 17:14:08 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 17:14:08 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 17:16:24 I/Net 2504637063: Connected to server msfwifi.3g.qq.com:8080[0m
+[0m2021-04-15 17:16:24 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 17:16:24 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 17:16:24 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 17:16:24 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 17:16:24 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 17:16:24 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=0)[0m
+[92m2021-04-15 17:16:25 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 17:16:25 I/Net 2504637063: Start loading stranger list...[0m
+[92m2021-04-15 17:16:25 I/Net 2504637063: Start loading group list...[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@213036b2[0m
+[92m2021-04-15 17:16:25 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-15 17:16:25 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 17:16:25 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 17:16:25 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-15 17:16:25 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 17:16:25 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 17:16:25 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-15 17:16:27 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 17:16:27 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 17:16:27 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 17:16:27 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-15 17:16:27 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 17:16:27 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 17:17:34 I/Net 2504637063: Connected to server 42.81.172.22:80[0m
+[0m2021-04-15 17:17:34 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 17:17:35 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-15 17:17:35 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 17:17:35 I/Net 2504637063: Start loading stranger list...[0m
+[92m2021-04-15 17:17:35 I/Net 2504637063: Start loading group list...[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@577dcee4[0m
+[92m2021-04-15 17:17:35 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-15 17:17:35 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 17:17:35 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 17:17:35 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-15 17:17:35 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 17:17:35 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 17:17:35 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-15 17:17:38 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 17:17:38 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 17:17:38 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 17:17:38 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[92m2021-04-15 17:19:51 I/Net 2504637063: Connected to server 42.81.172.81:80[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 17:19:51 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-15 17:19:51 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 17:19:51 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-15 17:19:51 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@7249bc49[0m
+[92m2021-04-15 17:19:51 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:19:51 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-15 17:19:51 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 17:19:52 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:19:52 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:19:52 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 17:19:52 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 17:19:52 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-15 17:19:52 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-15 17:19:52 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 17:19:52 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 17:19:52 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-15 17:19:54 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 17:19:54 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 17:19:54 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 17:19:54 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[92m2021-04-15 17:20:22 I/Net 2504637063: Connected to server 42.81.172.147:443[0m
+[0m2021-04-15 17:20:22 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 17:20:22 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 17:20:22 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 17:20:22 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-15 17:20:23 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 17:20:23 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-15 17:20:23 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@440c95d4[0m
+[92m2021-04-15 17:20:23 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-15 17:20:23 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 17:20:23 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 17:20:23 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-15 17:20:23 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 17:20:23 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 17:20:23 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-15 17:20:26 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 17:20:26 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 17:20:26 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 17:20:26 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[92m2021-04-15 17:21:17 I/Net 2504637063: Connected to server 114.221.144.215:80[0m
+[0m2021-04-15 17:21:17 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 17:21:17 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 17:21:17 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 17:21:17 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-15 17:21:18 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 17:21:18 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-15 17:21:18 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@eb04621[0m
+[92m2021-04-15 17:21:18 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-15 17:21:18 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 17:21:18 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 17:21:18 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-15 17:21:18 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 17:21:18 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 17:21:18 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-15 17:21:21 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 17:21:21 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 17:21:21 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-15 17:21:21 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 17:21:21 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 17:21:21 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 17:22:36 I/Net 2504637063: Connected to server 114.221.148.59:14000[0m
+[0m2021-04-15 17:22:36 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 17:22:36 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 17:22:36 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 17:22:36 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 17:22:36 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 17:22:36 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-15 17:22:37 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 17:22:37 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-15 17:22:37 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@58c06ba1[0m
+[92m2021-04-15 17:22:37 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-15 17:22:37 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 17:22:37 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 17:22:37 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-15 17:22:37 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 17:22:37 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 17:22:37 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-15 17:22:39 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 17:22:39 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 17:22:39 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 17:22:39 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-15 17:22:42 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 17:22:42 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 17:22:58 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 17:22:58 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 17:23:05 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 17:23:05 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 17:23:15 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 17:23:15 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[31m2021-04-15 17:24:33 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -20
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -20
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:47)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[31m2021-04-15 17:24:35 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -17
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -17
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:47)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[31m2021-04-15 17:24:45 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -18
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -18
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:47)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[31m2021-04-15 17:24:55 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -19
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -19
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:47)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[31m2021-04-15 17:25:08 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -17
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -17
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:47)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[31m2021-04-15 17:25:59 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -17
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -17
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:47)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m
+[0m2021-04-15 17:27:03 V/Net 2504637063: Send: OnlinePush.RespPush[0m
+[0m2021-04-15 17:27:06 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-15 17:27:07 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[92m2021-04-15 17:27:13 I/Net 2504637063: Connected to server 114.221.148.59:14000[0m
+[0m2021-04-15 17:27:13 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 17:27:13 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 17:27:13 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 17:27:13 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 17:27:13 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 17:27:13 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 17:27:13 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-15 17:27:13 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 17:27:13 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-15 17:27:13 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-15 17:27:13 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 17:27:13 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 17:27:13 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-15 17:27:13 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@362745cf[0m
+[92m2021-04-15 17:27:13 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 17:27:13 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:27:14 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-15 17:27:14 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 17:27:14 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:27:14 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:27:14 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:27:14 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:27:14 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:27:14 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:27:14 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 17:27:14 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 17:27:14 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-15 17:27:14 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-15 17:27:14 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 17:27:14 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 17:27:14 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-15 17:27:16 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 17:27:16 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 17:27:16 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 17:27:16 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[92m2021-04-15 17:27:57 I/Net 2504637063: Connected to server 114.221.144.215:80[0m
+[0m2021-04-15 17:27:57 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 17:27:57 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 17:27:57 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 17:27:57 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 17:27:57 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 17:27:57 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 17:27:57 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-15 17:27:57 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 17:27:57 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-15 17:27:57 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-15 17:27:57 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 17:27:57 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-15 17:27:57 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 17:27:57 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@2a397b5e[0m
+[92m2021-04-15 17:27:57 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 17:27:58 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:27:58 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:27:58 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:27:58 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:27:58 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:27:58 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-15 17:27:58 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 17:27:58 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:27:58 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:27:58 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 17:27:58 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 17:27:58 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[92m2021-04-15 17:27:58 I/Net 2504637063: Syncing friend message history...[0m
+[0m2021-04-15 17:27:58 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 17:27:58 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 17:27:58 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-15 17:28:00 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 17:28:00 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 17:28:00 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 17:28:00 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-15 17:28:12 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 17:28:12 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[92m2021-04-15 17:28:24 I/Net 2504637063: Connected to server 125.94.60.146:80[0m
+[0m2021-04-15 17:28:24 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 17:28:25 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-15 17:28:25 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 17:28:25 I/Net 2504637063: Start loading stranger list...[0m
+[92m2021-04-15 17:28:25 I/Net 2504637063: Start loading group list...[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@627043a5[0m
+[92m2021-04-15 17:28:25 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-15 17:28:25 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:28:25 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 17:28:26 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:28:26 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 17:28:26 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 17:28:26 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 17:28:26 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-15 17:28:26 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-15 17:28:26 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 17:28:26 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 17:28:26 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-15 17:28:28 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 17:28:28 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 17:28:28 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 17:28:28 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-15 17:28:31 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 17:28:32 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 17:31:20 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 17:31:20 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-15 17:32:55 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-15 17:32:55 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[92m2021-04-15 19:25:40 I/Net 2504637063: Connected to server 114.221.148.59:14000[0m
+[0m2021-04-15 19:25:40 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 19:25:41 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 19:25:41 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 19:25:41 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 19:25:41 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 19:25:41 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 19:25:41 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-15 19:25:41 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-15 19:25:41 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 19:25:41 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-15 19:25:41 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 19:25:41 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 19:25:41 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-15 19:25:41 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@4807873f[0m
+[92m2021-04-15 19:25:41 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 19:25:42 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 19:25:42 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 19:25:42 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-15 19:25:42 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 19:25:42 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 19:25:42 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 19:25:42 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 19:25:42 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 19:25:42 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 19:25:42 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 19:25:42 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 19:25:42 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-15 19:25:42 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-15 19:25:42 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 19:25:42 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 19:25:42 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-15 19:25:44 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 19:25:44 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 19:25:44 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 19:25:44 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-15 19:25:44 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 19:25:44 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-15 19:26:01 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-15 19:26:02 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[92m2021-04-15 19:31:55 I/Net 2504637063: Connected to server 125.94.60.146:80[0m
+[0m2021-04-15 19:31:55 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-15 19:31:56 I/Net 2504637063: Login successful[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-15 19:31:56 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-15 19:31:56 I/Net 2504637063: Start loading stranger list...[0m
+[92m2021-04-15 19:31:56 I/Net 2504637063: Start loading group list...[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[96m2021-04-15 19:31:56 D/Net 2504637063: Received unknown commandName: MultiVideo.s2c[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@41242f73[0m
+[92m2021-04-15 19:31:56 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-15 19:31:56 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-15 19:31:56 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-15 19:31:56 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-15 19:31:56 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-15 19:31:56 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-15 19:31:56 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-15 19:31:59 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-15 19:31:59 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-15 19:31:59 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-15 19:31:59 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[31m2021-04-15 19:32:03 E/Net 2504637063: Exception in NetworkHandler
+java.lang.StringIndexOutOfBoundsException: String index out of range: -15
+	at (Coroutine boundary.()
+	at net.mamoe.mirai.internal.event.Handler.onEvent(InternalEventListeners.kt:49)
+	at net.mamoe.mirai.event.EventKt.broadcast(Event.kt:226)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.handlePacket(QQAndroidBotNetworkHandler.kt:615)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$generifiedParsePacket$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:571)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.handleIncomingPacket$mirai_core(PacketFactory.kt:281)
+	at net.mamoe.mirai.internal.network.protocol.packet.KnownPacketFactories.parseIncomingPacket(PacketFactory.kt:237)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$parsePacketAsync$1.invokeSuspend(QQAndroidBotNetworkHandler.kt:540)
+	at (Coroutine creation stacktrace.()
+	at kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt.createCoroutineUnintercepted(IntrinsicsJvm.kt:122)
+	at kotlin.coroutines.ContinuationKt.startCoroutine(Continuation.kt:129)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:110)
+	at kotlinx.coroutines.BuildersKt.launch$default(Unknown Source)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.parsePacketAsync(QQAndroidBotNetworkHandler.kt:535)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.processPacket(QQAndroidBotNetworkHandler.kt:639)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.access$processPacket(QQAndroidBotNetworkHandler.kt:54)
+	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$startPacketReceiverJobOrKill$2.invokeSuspend(QQAndroidBotNetworkHandler.kt:94)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: -15
+	at java.base/java.lang.String.substring(String.java:1850)
+	at test.test.lambda$main$0(test.java:43)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	... 1 more
+[0m

@@ -7,6 +7,7 @@ import net.mamoe.mirai.BotFactory;
 import net.mamoe.mirai.event.GlobalEventChannel;
 import net.mamoe.mirai.event.events.GroupMessageEvent;
 import net.mamoe.mirai.utils.BotConfiguration;
+import tool.initData;
 
 import java.io.*;
 
@@ -22,7 +23,7 @@ public class test {
             }
             });
             bot.login();
-
+        initData.init();
         TYMatchQuery tyMatchQuery = new TYMatchQuery();
         qinYe qinYe = new qinYe();
                 GlobalEventChannel.INSTANCE.subscribeAlways(GroupMessageEvent.class, event -> {

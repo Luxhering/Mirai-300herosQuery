@@ -87,7 +87,7 @@ public class httpTool {
      * @return inputStream InputStream
      * **/
     public  InputStream getInputStream(String name) {
-        String urlPath = "https://300report.jumpw.com/static/images/"+name;
+        String urlPath = name;
         InputStream inputStream = null;
         HttpURLConnection httpURLConnection = null;
         try {

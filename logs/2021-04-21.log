@@ -1,0 +1,820 @@
+[92m2021-04-21 14:48:28 I/Net 2504637063: Connected to server 42.81.172.81:80[0m
+[0m2021-04-21 14:48:28 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-21 14:48:28 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-21 14:48:28 I/Net 2504637063: Login successful[0m
+[0m2021-04-21 14:48:28 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-21 14:48:28 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-21 14:48:28 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-21 14:48:28 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-21 14:48:28 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-21 14:48:28 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-21 14:48:28 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-21 14:48:28 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-21 14:48:28 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-21 14:48:28 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-21 14:48:29 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@1e7e06fd[0m
+[92m2021-04-21 14:48:29 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-21 14:48:29 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 14:48:29 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-21 14:48:29 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-21 14:48:29 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 14:48:29 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 14:48:29 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 14:48:29 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 14:48:29 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 14:48:29 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 14:48:29 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-21 14:48:29 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-21 14:48:29 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-21 14:48:29 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-21 14:48:29 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-21 14:48:29 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-21 14:48:29 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-21 14:48:31 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 14:48:31 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-21 14:48:31 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-21 14:48:31 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-21 14:48:31 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 14:48:31 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-21 14:52:58 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-21 14:52:58 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-21 14:57:28 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-21 14:57:28 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[92m2021-04-21 15:01:21 I/Net 2504637063: Connected to server 114.221.148.59:14000[0m
+[0m2021-04-21 15:01:21 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-21 15:01:21 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-21 15:01:21 I/Net 2504637063: Login successful[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-21 15:01:22 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-21 15:01:22 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-21 15:01:22 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@bae5c28[0m
+[92m2021-04-21 15:01:22 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-21 15:01:22 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-21 15:01:22 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-21 15:01:22 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-21 15:01:22 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-21 15:01:22 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-21 15:01:22 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-21 15:01:25 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 15:01:25 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-21 15:01:25 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-21 15:01:25 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-21 15:01:25 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 15:01:25 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[0m2021-04-21 15:05:52 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-21 15:05:52 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-21 15:10:22 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-21 15:10:22 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[0m2021-04-21 15:14:52 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-21 15:14:52 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[92m2021-04-21 15:18:06 I/Net 2504637063: Connected to server 42.81.172.81:80[0m
+[0m2021-04-21 15:18:06 V/Net 2504637063: Send: wtlogin.login[0m
+[92m2021-04-21 16:44:20 I/Net 2504637063: Connected to server 125.94.60.146:80[0m
+[0m2021-04-21 16:44:20 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-21 16:44:20 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-21 16:44:20 I/Net 2504637063: Login successful[0m
+[0m2021-04-21 16:44:20 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-21 16:44:20 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-21 16:44:20 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-21 16:44:21 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-21 16:44:21 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-21 16:44:21 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@76df936e[0m
+[92m2021-04-21 16:44:21 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-21 16:44:21 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-21 16:44:21 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-21 16:44:21 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-21 16:44:21 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-21 16:44:21 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-21 16:44:21 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-21 16:44:23 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-21 16:44:23 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 16:44:23 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-21 16:44:23 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-21 16:44:23 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 16:44:23 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-21 16:46:04 I/Net 2504637063: Connected to server 42.81.172.22:80[0m
+[0m2021-04-21 16:46:04 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-21 16:46:05 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-21 16:46:05 I/Net 2504637063: Login successful[0m
+[0m2021-04-21 16:46:05 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-21 16:46:05 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-21 16:46:05 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-21 16:46:05 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-21 16:46:05 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-21 16:46:05 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-21 16:46:05 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-21 16:46:05 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-21 16:46:05 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-21 16:46:05 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-21 16:46:05 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@2e665988[0m
+[92m2021-04-21 16:46:05 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-21 16:46:06 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 16:46:06 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 16:46:06 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-21 16:46:06 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-21 16:46:06 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:46:06 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:46:06 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:46:06 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 16:46:06 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 16:46:06 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-21 16:46:06 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-21 16:46:06 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-21 16:46:06 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-21 16:46:06 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-21 16:46:06 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-21 16:46:06 I/Net 2504637063: Syncing friend message history: Success.[0m
+[0m2021-04-21 16:46:08 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 16:46:08 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-21 16:46:08 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[96m2021-04-21 16:46:08 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-21 16:46:08 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 16:46:08 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-21 16:48:22 I/Net 2504637063: Connected to server 42.81.172.81:80[0m
+[0m2021-04-21 16:48:22 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-21 16:48:23 I/Net 2504637063: Login successful[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-21 16:48:23 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-21 16:48:23 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-21 16:48:23 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@2d90f369[0m
+[92m2021-04-21 16:48:23 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-21 16:48:23 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-21 16:48:23 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-21 16:48:23 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-21 16:48:23 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-21 16:48:23 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-21 16:48:24 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-21 16:48:24 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-21 16:48:26 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-21 16:48:26 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 16:48:26 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-21 16:48:26 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-21 16:50:15 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:50:15 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:50:15 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:50:16 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[31m2021-04-21 16:50:16 E/Net 2504637063: Exception in NetworkHandler
+net.sf.json.JSONException: A JSONObject text must begin with '{' at character 0 of 
+	at net.sf.json.util.JSONTokener.syntaxError(JSONTokener.java:512)
+	at net.sf.json.JSONObject._fromJSONTokener(JSONObject.java:881)
+	at net.sf.json.JSONObject._fromString(JSONObject.java:1102)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:175)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:145)
+	at function.TYMatchQuery.tyMatch(TYMatchQuery.java:37)
+	at test.test.lambda$main$0(test.java:32)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+[0m
+[0m2021-04-21 16:51:20 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:51:20 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:51:20 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:51:20 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[31m2021-04-21 16:51:20 E/Net 2504637063: Exception in NetworkHandler
+net.sf.json.JSONException: A JSONObject text must begin with '{' at character 0 of 
+	at net.sf.json.util.JSONTokener.syntaxError(JSONTokener.java:512)
+	at net.sf.json.JSONObject._fromJSONTokener(JSONObject.java:881)
+	at net.sf.json.JSONObject._fromString(JSONObject.java:1102)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:175)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:145)
+	at function.TYMatchQuery.tyMatch(TYMatchQuery.java:37)
+	at test.test.lambda$main$0(test.java:32)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+[0m
+[92m2021-04-21 16:51:42 I/Net 2504637063: Connected to server 42.81.172.81:80[0m
+[0m2021-04-21 16:51:42 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-21 16:51:42 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-21 16:51:42 I/Net 2504637063: Login successful[0m
+[0m2021-04-21 16:51:42 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-21 16:51:42 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-21 16:51:42 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-21 16:51:43 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-21 16:51:43 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-21 16:51:43 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@feb9008[0m
+[92m2021-04-21 16:51:43 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-21 16:51:43 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-21 16:51:43 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-21 16:51:43 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-21 16:51:43 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-21 16:51:43 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-21 16:51:43 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-21 16:51:46 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-21 16:51:46 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 16:51:46 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-21 16:51:46 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-21 16:51:48 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:51:49 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:51:49 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:51:49 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[31m2021-04-21 16:51:49 E/Net 2504637063: Exception in NetworkHandler
+net.sf.json.JSONException: A JSONObject text must begin with '{' at character 0 of 
+	at net.sf.json.util.JSONTokener.syntaxError(JSONTokener.java:512)
+	at net.sf.json.JSONObject._fromJSONTokener(JSONObject.java:881)
+	at net.sf.json.JSONObject._fromString(JSONObject.java:1102)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:175)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:145)
+	at function.TYMatchQuery.tyMatch(TYMatchQuery.java:37)
+	at test.test.lambda$main$0(test.java:32)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+[0m
+[92m2021-04-21 16:53:03 I/Net 2504637063: Connected to server msfwifi.3g.qq.com:8080[0m
+[0m2021-04-21 16:53:03 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-21 16:53:03 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-21 16:53:03 I/Net 2504637063: Login successful[0m
+[0m2021-04-21 16:53:03 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-21 16:53:04 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-21 16:53:04 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-21 16:53:04 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@5c3571b4[0m
+[92m2021-04-21 16:53:04 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-21 16:53:04 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-21 16:53:04 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-21 16:53:04 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-21 16:53:04 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-21 16:53:04 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-21 16:53:04 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-21 16:53:07 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-21 16:53:07 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 16:53:07 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-21 16:53:07 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-21 16:53:09 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:53:09 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:53:09 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:53:10 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[31m2021-04-21 16:53:10 E/Net 2504637063: Exception in NetworkHandler
+net.sf.json.JSONException: A JSONObject text must begin with '{' at character 0 of 
+	at net.sf.json.util.JSONTokener.syntaxError(JSONTokener.java:512)
+	at net.sf.json.JSONObject._fromJSONTokener(JSONObject.java:881)
+	at net.sf.json.JSONObject._fromString(JSONObject.java:1102)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:175)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:145)
+	at function.TYMatchQuery.tyMatch(TYMatchQuery.java:37)
+	at test.test.lambda$main$0(test.java:32)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+[0m
+[31m2021-04-21 16:53:27 E/Net 2504637063: Exception in NetworkHandler
+net.sf.json.JSONException: A JSONObject text must begin with '{' at character 0 of 
+	at net.sf.json.util.JSONTokener.syntaxError(JSONTokener.java:512)
+	at net.sf.json.JSONObject._fromJSONTokener(JSONObject.java:881)
+	at net.sf.json.JSONObject._fromString(JSONObject.java:1102)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:175)
+	at net.sf.json.JSONObject.fromObject(JSONObject.java:145)
+	at function.TYMatchQuery.tyMatch(TYMatchQuery.java:37)
+	at test.test.lambda$main$0(test.java:32)
+	at net.mamoe.mirai.event.EventChannel$subscribeAlways$2$invokeSuspend$$inlined$suspendCoroutine$lambda$1.run(EventChannel.kt:476)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:571)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:738)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:678)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:665)
+[0m
+[92m2021-04-21 16:55:16 I/Net 2504637063: Connected to server 125.94.60.146:80[0m
+[0m2021-04-21 16:55:16 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-21 16:55:17 I/Net 2504637063: Login successful[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-21 16:55:17 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-21 16:55:17 I/Net 2504637063: Start loading stranger list...[0m
+[92m2021-04-21 16:55:17 I/Net 2504637063: Start loading group list...[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@54787f6b[0m
+[92m2021-04-21 16:55:17 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-21 16:55:17 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-21 16:55:17 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-21 16:55:17 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-21 16:55:17 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-21 16:55:17 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-21 16:55:18 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-21 16:55:18 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-21 16:55:20 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-21 16:55:20 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 16:55:20 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-21 16:55:20 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-21 16:55:27 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:27 V/Net 2504637063: Recv: FileExists(fileId=2784566323, fileInfo=ImgInfo(fileMd5=[116, -77, -62, 41, 20, 13, -107, -15, -83, 10, -71, -113, 8, 12, -41, -65], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:27 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:27 V/Net 2504637063: Recv: FileExists(fileId=2531509021, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:27 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:27 V/Net 2504637063: Recv: FileExists(fileId=3100702897, fileInfo=ImgInfo(fileMd5=[-74, 46, -29, -28, 124, -100, 88, 69, -95, -76, -11, 124, -77, -88, -88, 24], fileType=1000, fileSize=2653, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:27 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:27 V/Net 2504637063: Recv: FileExists(fileId=2160094772, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:27 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:27 V/Net 2504637063: Recv: FileExists(fileId=2536629199, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:28 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:28 V/Net 2504637063: Recv: FileExists(fileId=2305154673, fileInfo=ImgInfo(fileMd5=[-115, -40, 22, -115, 35, -72, -3, 43, -50, 41, -74, 71, 112, 84, 20, 57], fileType=1000, fileSize=3058, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:28 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:28 V/Net 2504637063: Recv: FileExists(fileId=2269452812, fileInfo=ImgInfo(fileMd5=[-27, 44, -90, 73, 96, -36, 82, -83, -22, 101, -90, 13, -65, -14, -57, 41], fileType=1000, fileSize=3057, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:28 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:28 V/Net 2504637063: Recv: FileExists(fileId=2445072178, fileInfo=ImgInfo(fileMd5=[-110, 29, 56, -39, -47, -57, -40, -25, 79, -49, -53, -116, -2, 15, 39, 83], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:28 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:28 V/Net 2504637063: Recv: FileExists(fileId=3021159790, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:28 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:28 V/Net 2504637063: Recv: FileExists(fileId=2671377176, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:28 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-21 16:55:29 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@685c1f79)[0m
+[0m2021-04-21 16:55:29 V/Net 2504637063: [Highway] Uploading group long message to 157.148.45.167:443, size=1.2 KiB[0m
+[0m2021-04-21 16:55:29 V/Net 2504637063: [Highway] Uploading group long message: succeed at 3 KiB/s[0m
+[0m2021-04-21 16:55:29 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:55:29 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:55:36 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:55:36 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:55:36 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:55:36 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:55:36 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:36 V/Net 2504637063: Recv: FileExists(fileId=2818768142, fileInfo=ImgInfo(fileMd5=[116, -77, -62, 41, 20, 13, -107, -15, -83, 10, -71, -113, 8, 12, -41, -65], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:36 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:36 V/Net 2504637063: Recv: FileExists(fileId=3144855643, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:36 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:36 V/Net 2504637063: Recv: FileExists(fileId=2298868369, fileInfo=ImgInfo(fileMd5=[-74, 46, -29, -28, 124, -100, 88, 69, -95, -76, -11, 124, -77, -88, -88, 24], fileType=1000, fileSize=2653, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:36 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Recv: FileExists(fileId=2477068129, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Recv: FileExists(fileId=2380558458, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Recv: FileExists(fileId=3170476005, fileInfo=ImgInfo(fileMd5=[-115, -40, 22, -115, 35, -72, -3, 43, -50, 41, -74, 71, 112, 84, 20, 57], fileType=1000, fileSize=3058, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Recv: FileExists(fileId=2181044990, fileInfo=ImgInfo(fileMd5=[-27, 44, -90, 73, 96, -36, 82, -83, -22, 101, -90, 13, -65, -14, -57, 41], fileType=1000, fileSize=3057, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Recv: FileExists(fileId=2561617827, fileInfo=ImgInfo(fileMd5=[-110, 29, 56, -39, -47, -57, -40, -25, 79, -49, -53, -116, -2, 15, 39, 83], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Recv: FileExists(fileId=2624285113, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Recv: FileExists(fileId=2838854423, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@1f96a264)[0m
+[0m2021-04-21 16:55:37 V/Net 2504637063: [Highway] Uploading group long message to 157.255.243.94:443, size=1.2 KiB[0m
+[0m2021-04-21 16:55:38 V/Net 2504637063: [Highway] Uploading group long message: succeed at 2 KiB/s[0m
+[0m2021-04-21 16:55:38 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:55:38 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:56:03 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:56:04 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:56:04 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:56:04 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:56:04 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:04 V/Net 2504637063: Recv: FileExists(fileId=3012762084, fileInfo=ImgInfo(fileMd5=[116, -77, -62, 41, 20, 13, -107, -15, -83, 10, -71, -113, 8, 12, -41, -65], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:04 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:04 V/Net 2504637063: Recv: FileExists(fileId=2883850415, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:04 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:04 V/Net 2504637063: Recv: FileExists(fileId=2280263485, fileInfo=ImgInfo(fileMd5=[-74, 46, -29, -28, 124, -100, 88, 69, -95, -76, -11, 124, -77, -88, -88, 24], fileType=1000, fileSize=2653, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:04 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:04 V/Net 2504637063: Recv: FileExists(fileId=2643293286, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:04 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:05 V/Net 2504637063: Recv: FileExists(fileId=3012421726, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:05 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:05 V/Net 2504637063: Recv: FileExists(fileId=2699363064, fileInfo=ImgInfo(fileMd5=[-115, -40, 22, -115, 35, -72, -3, 43, -50, 41, -74, 71, 112, 84, 20, 57], fileType=1000, fileSize=3058, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:05 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:05 V/Net 2504637063: Recv: FileExists(fileId=2215701151, fileInfo=ImgInfo(fileMd5=[-27, 44, -90, 73, 96, -36, 82, -83, -22, 101, -90, 13, -65, -14, -57, 41], fileType=1000, fileSize=3057, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:05 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:05 V/Net 2504637063: Recv: FileExists(fileId=2975582624, fileInfo=ImgInfo(fileMd5=[-110, 29, 56, -39, -47, -57, -40, -25, 79, -49, -53, -116, -2, 15, 39, 83], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:05 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:05 V/Net 2504637063: Recv: FileExists(fileId=2913659981, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:05 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:05 V/Net 2504637063: Recv: FileExists(fileId=2955662109, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:05 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-21 16:56:05 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@2193d1df)[0m
+[0m2021-04-21 16:56:05 V/Net 2504637063: [Highway] Uploading group long message to 157.255.243.94:443, size=1.2 KiB[0m
+[0m2021-04-21 16:56:06 V/Net 2504637063: [Highway] Uploading group long message: succeed at 3 KiB/s[0m
+[0m2021-04-21 16:56:06 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:56:06 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:56:23 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:56:23 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:56:23 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:56:24 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:56:24 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:24 V/Net 2504637063: Recv: FileExists(fileId=2295977416, fileInfo=ImgInfo(fileMd5=[116, -77, -62, 41, 20, 13, -107, -15, -83, 10, -71, -113, 8, 12, -41, -65], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:24 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:24 V/Net 2504637063: Recv: FileExists(fileId=2961606806, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:24 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:24 V/Net 2504637063: Recv: FileExists(fileId=3086034025, fileInfo=ImgInfo(fileMd5=[-74, 46, -29, -28, 124, -100, 88, 69, -95, -76, -11, 124, -77, -88, -88, 24], fileType=1000, fileSize=2653, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:24 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:24 V/Net 2504637063: Recv: FileExists(fileId=2522970110, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:24 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:24 V/Net 2504637063: Recv: FileExists(fileId=2892611558, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:24 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:25 V/Net 2504637063: Recv: FileExists(fileId=2363163010, fileInfo=ImgInfo(fileMd5=[-115, -40, 22, -115, 35, -72, -3, 43, -50, 41, -74, 71, 112, 84, 20, 57], fileType=1000, fileSize=3058, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:25 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:25 V/Net 2504637063: Recv: FileExists(fileId=2488843525, fileInfo=ImgInfo(fileMd5=[-27, 44, -90, 73, 96, -36, 82, -83, -22, 101, -90, 13, -65, -14, -57, 41], fileType=1000, fileSize=3057, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:25 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:25 V/Net 2504637063: Recv: FileExists(fileId=2290207914, fileInfo=ImgInfo(fileMd5=[-110, 29, 56, -39, -47, -57, -40, -25, 79, -49, -53, -116, -2, 15, 39, 83], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:25 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:25 V/Net 2504637063: Recv: FileExists(fileId=2830404197, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:25 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:56:25 V/Net 2504637063: Recv: FileExists(fileId=2584528808, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:56:25 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-21 16:56:25 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@37fb70a6)[0m
+[0m2021-04-21 16:56:25 V/Net 2504637063: [Highway] Uploading group long message to 157.255.243.94:443, size=1.2 KiB[0m
+[0m2021-04-21 16:56:25 V/Net 2504637063: [Highway] Uploading group long message: succeed at 3 KiB/s[0m
+[0m2021-04-21 16:56:25 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:56:26 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[92m2021-04-21 16:56:52 I/Net 2504637063: Connected to server 42.81.172.147:443[0m
+[0m2021-04-21 16:56:52 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-21 16:56:52 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-21 16:56:52 I/Net 2504637063: Login successful[0m
+[0m2021-04-21 16:56:52 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-21 16:56:53 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-21 16:56:53 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-21 16:56:53 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@2627fb64[0m
+[92m2021-04-21 16:56:53 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-21 16:56:53 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-21 16:56:53 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-21 16:56:53 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-21 16:56:53 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-21 16:56:53 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-21 16:56:53 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-21 16:56:56 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-21 16:56:56 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 16:56:56 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-21 16:56:56 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-21 16:57:37 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:57:37 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:57:37 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:57:37 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:58:01 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:01 V/Net 2504637063: Recv: FileExists(fileId=2489418576, fileInfo=ImgInfo(fileMd5=[116, -77, -62, 41, 20, 13, -107, -15, -83, 10, -71, -113, 8, 12, -41, -65], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:01 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:01 V/Net 2504637063: Recv: FileExists(fileId=2768142725, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:01 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:02 V/Net 2504637063: Recv: FileExists(fileId=2212755904, fileInfo=ImgInfo(fileMd5=[-74, 46, -29, -28, 124, -100, 88, 69, -95, -76, -11, 124, -77, -88, -88, 24], fileType=1000, fileSize=2653, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:02 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:02 V/Net 2504637063: Recv: FileExists(fileId=2861907204, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:02 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:02 V/Net 2504637063: Recv: FileExists(fileId=2158867004, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:02 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:02 V/Net 2504637063: Recv: FileExists(fileId=2868560138, fileInfo=ImgInfo(fileMd5=[-115, -40, 22, -115, 35, -72, -3, 43, -50, 41, -74, 71, 112, 84, 20, 57], fileType=1000, fileSize=3058, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:02 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:02 V/Net 2504637063: Recv: FileExists(fileId=2336318071, fileInfo=ImgInfo(fileMd5=[-27, 44, -90, 73, 96, -36, 82, -83, -22, 101, -90, 13, -65, -14, -57, 41], fileType=1000, fileSize=3057, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:02 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:02 V/Net 2504637063: Recv: FileExists(fileId=3017571110, fileInfo=ImgInfo(fileMd5=[-110, 29, 56, -39, -47, -57, -40, -25, 79, -49, -53, -116, -2, 15, 39, 83], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:02 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:03 V/Net 2504637063: Recv: FileExists(fileId=2686350405, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:03 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:03 V/Net 2504637063: Recv: FileExists(fileId=3119969928, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:03 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-21 16:58:03 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@3a47de34)[0m
+[0m2021-04-21 16:58:03 V/Net 2504637063: [Highway] Uploading group long message to 157.255.196.94:443, size=1.2 KiB[0m
+[0m2021-04-21 16:58:03 V/Net 2504637063: [Highway] Uploading group long message: succeed at 3 KiB/s[0m
+[0m2021-04-21 16:58:03 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:58:04 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:58:14 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:58:15 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:58:15 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:58:15 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 16:58:15 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:15 V/Net 2504637063: Recv: FileExists(fileId=2796308623, fileInfo=ImgInfo(fileMd5=[116, -77, -62, 41, 20, 13, -107, -15, -83, 10, -71, -113, 8, 12, -41, -65], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:15 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:16 V/Net 2504637063: Recv: FileExists(fileId=3004850091, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:16 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:16 V/Net 2504637063: Recv: FileExists(fileId=3057744429, fileInfo=ImgInfo(fileMd5=[-74, 46, -29, -28, 124, -100, 88, 69, -95, -76, -11, 124, -77, -88, -88, 24], fileType=1000, fileSize=2653, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:16 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:16 V/Net 2504637063: Recv: FileExists(fileId=3134408281, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:16 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:16 V/Net 2504637063: Recv: FileExists(fileId=2305212921, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:16 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:16 V/Net 2504637063: Recv: FileExists(fileId=2846075957, fileInfo=ImgInfo(fileMd5=[-115, -40, 22, -115, 35, -72, -3, 43, -50, 41, -74, 71, 112, 84, 20, 57], fileType=1000, fileSize=3058, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:16 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:16 V/Net 2504637063: Recv: FileExists(fileId=2430992832, fileInfo=ImgInfo(fileMd5=[-27, 44, -90, 73, 96, -36, 82, -83, -22, 101, -90, 13, -65, -14, -57, 41], fileType=1000, fileSize=3057, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:16 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:17 V/Net 2504637063: Recv: FileExists(fileId=2251902065, fileInfo=ImgInfo(fileMd5=[-110, 29, 56, -39, -47, -57, -40, -25, 79, -49, -53, -116, -2, 15, 39, 83], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:17 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:17 V/Net 2504637063: Recv: FileExists(fileId=2665981760, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:17 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 16:58:17 V/Net 2504637063: Recv: FileExists(fileId=2759439176, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 16:58:17 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-21 16:58:17 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@42165b9)[0m
+[0m2021-04-21 16:58:17 V/Net 2504637063: [Highway] Uploading group long message to 61.241.43.180:443, size=1.2 KiB[0m
+[0m2021-04-21 16:58:18 V/Net 2504637063: [Highway] Uploading group long message: succeed at 3 KiB/s[0m
+[0m2021-04-21 16:58:18 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 16:58:18 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 17:00:05 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 17:00:05 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 17:00:05 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 17:00:06 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 17:00:21 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:00:21 V/Net 2504637063: Recv: FileExists(fileId=2978472861, fileInfo=ImgInfo(fileMd5=[116, -77, -62, 41, 20, 13, -107, -15, -83, 10, -71, -113, 8, 12, -41, -65], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:00:21 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:00:21 V/Net 2504637063: Recv: FileExists(fileId=3034308803, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:00:21 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:00:21 V/Net 2504637063: Recv: FileExists(fileId=2374804315, fileInfo=ImgInfo(fileMd5=[-74, 46, -29, -28, 124, -100, 88, 69, -95, -76, -11, 124, -77, -88, -88, 24], fileType=1000, fileSize=2653, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:00:21 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:00:22 V/Net 2504637063: Recv: FileExists(fileId=2438528926, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:00:22 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:00:22 V/Net 2504637063: Recv: FileExists(fileId=3073184231, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:00:22 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:00:22 V/Net 2504637063: Recv: FileExists(fileId=2544204222, fileInfo=ImgInfo(fileMd5=[-115, -40, 22, -115, 35, -72, -3, 43, -50, 41, -74, 71, 112, 84, 20, 57], fileType=1000, fileSize=3058, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:00:22 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:00:22 V/Net 2504637063: Recv: FileExists(fileId=2886591879, fileInfo=ImgInfo(fileMd5=[-27, 44, -90, 73, 96, -36, 82, -83, -22, 101, -90, 13, -65, -14, -57, 41], fileType=1000, fileSize=3057, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:00:22 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:00:22 V/Net 2504637063: Recv: FileExists(fileId=2336503659, fileInfo=ImgInfo(fileMd5=[-110, 29, 56, -39, -47, -57, -40, -25, 79, -49, -53, -116, -2, 15, 39, 83], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:00:22 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:00:22 V/Net 2504637063: Recv: FileExists(fileId=2537062379, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:00:22 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:00:23 V/Net 2504637063: Recv: FileExists(fileId=3153498845, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:00:23 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-21 17:00:23 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@850c756)[0m
+[0m2021-04-21 17:00:23 V/Net 2504637063: [Highway] Uploading group long message to 157.255.196.94:443, size=1.2 KiB[0m
+[0m2021-04-21 17:00:24 V/Net 2504637063: [Highway] Uploading group long message: succeed at 2 KiB/s[0m
+[0m2021-04-21 17:00:24 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 17:00:24 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 17:01:23 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-21 17:01:23 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[92m2021-04-21 17:02:11 I/Net 2504637063: Connected to server 42.81.169.46:8080[0m
+[0m2021-04-21 17:02:11 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-21 17:02:12 I/Net 2504637063: Login successful[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-21 17:02:12 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-21 17:02:12 I/Net 2504637063: Start loading stranger list...[0m
+[92m2021-04-21 17:02:12 I/Net 2504637063: Start loading group list...[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@5359d294[0m
+[92m2021-04-21 17:02:12 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-21 17:02:12 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-21 17:02:12 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-21 17:02:12 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-21 17:02:12 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-21 17:02:12 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-21 17:02:12 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-21 17:02:15 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-21 17:02:15 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 17:02:15 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-21 17:02:15 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-21 17:02:17 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 17:02:17 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 17:02:17 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 17:02:18 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 17:02:27 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:02:27 V/Net 2504637063: Recv: FileExists(fileId=2880738057, fileInfo=ImgInfo(fileMd5=[116, -77, -62, 41, 20, 13, -107, -15, -83, 10, -71, -113, 8, 12, -41, -65], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:02:27 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:02:27 V/Net 2504637063: Recv: FileExists(fileId=2282539901, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:02:27 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:02:27 V/Net 2504637063: Recv: FileExists(fileId=2486934030, fileInfo=ImgInfo(fileMd5=[-74, 46, -29, -28, 124, -100, 88, 69, -95, -76, -11, 124, -77, -88, -88, 24], fileType=1000, fileSize=2653, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:02:27 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:02:27 V/Net 2504637063: Recv: FileExists(fileId=2346429275, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:02:27 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:02:27 V/Net 2504637063: Recv: FileExists(fileId=2495400652, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:02:27 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:02:28 V/Net 2504637063: Recv: FileExists(fileId=2246097707, fileInfo=ImgInfo(fileMd5=[-115, -40, 22, -115, 35, -72, -3, 43, -50, 41, -74, 71, 112, 84, 20, 57], fileType=1000, fileSize=3058, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:02:28 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:02:28 V/Net 2504637063: Recv: FileExists(fileId=2364363542, fileInfo=ImgInfo(fileMd5=[-27, 44, -90, 73, 96, -36, 82, -83, -22, 101, -90, 13, -65, -14, -57, 41], fileType=1000, fileSize=3057, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:02:28 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:02:28 V/Net 2504637063: Recv: FileExists(fileId=2464958459, fileInfo=ImgInfo(fileMd5=[-110, 29, 56, -39, -47, -57, -40, -25, 79, -49, -53, -116, -2, 15, 39, 83], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:02:28 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:02:28 V/Net 2504637063: Recv: FileExists(fileId=3177864838, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:02:28 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:02:28 V/Net 2504637063: Recv: FileExists(fileId=2974123067, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:02:28 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-21 17:02:29 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@25b763f7)[0m
+[0m2021-04-21 17:02:29 V/Net 2504637063: [Highway] Uploading group long message to 61.241.43.180:443, size=1.2 KiB[0m
+[0m2021-04-21 17:02:29 V/Net 2504637063: [Highway] Uploading group long message: succeed at 3 KiB/s[0m
+[0m2021-04-21 17:02:29 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 17:02:30 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 17:02:35 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 17:02:35 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 17:02:35 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 17:02:35 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 17:03:01 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 17:03:01 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[92m2021-04-21 17:03:42 I/Net 2504637063: Connected to server 42.81.172.147:443[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-21 17:03:43 I/Net 2504637063: Login successful[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-21 17:03:43 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-21 17:03:43 I/Net 2504637063: Start loading stranger list...[0m
+[92m2021-04-21 17:03:43 I/Net 2504637063: Start loading group list...[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@7b304e97[0m
+[92m2021-04-21 17:03:43 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-21 17:03:43 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 17:03:43 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 17:03:44 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 17:03:44 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 17:03:44 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-21 17:03:44 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-21 17:03:44 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-21 17:03:44 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-21 17:03:44 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-21 17:03:44 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-21 17:03:44 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-21 17:03:46 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-21 17:03:46 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 17:03:46 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-21 17:03:46 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m
+[0m2021-04-21 17:06:34 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:06:34 V/Net 2504637063: Recv: FileExists(fileId=2205745162, fileInfo=ImgInfo(fileMd5=[79, 57, -91, 80, -71, -17, 66, 40, -42, 61, 109, 123, -125, 107, -53, -91], fileType=1000, fileSize=2551, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:06:34 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:06:34 V/Net 2504637063: Recv: FileExists(fileId=2155767702, fileInfo=ImgInfo(fileMd5=[27, 21, 54, 103, -71, -120, -77, -88, 65, 31, 61, -3, -110, 24, 18, 26], fileType=1000, fileSize=3021, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:06:34 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:06:34 V/Net 2504637063: Recv: FileExists(fileId=2867374381, fileInfo=ImgInfo(fileMd5=[98, 93, -125, 99, -30, -21, -97, 19, 51, 66, 78, -2, -93, -67, -1, -41], fileType=1000, fileSize=2858, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:06:34 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:06:35 V/Net 2504637063: Recv: FileExists(fileId=2727190647, fileInfo=ImgInfo(fileMd5=[60, -101, -100, 100, 20, 69, -22, 101, 57, -96, 42, 59, 5, -28, 90, -100], fileType=1000, fileSize=3127, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:06:35 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:06:35 V/Net 2504637063: Recv: FileExists(fileId=2956596082, fileInfo=ImgInfo(fileMd5=[-8, 117, -97, 127, 100, 78, -3, -99, 127, -126, 91, -38, -47, 37, 84, -37], fileType=1000, fileSize=3058, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:06:35 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:06:35 V/Net 2504637063: Recv: FileExists(fileId=2762211723, fileInfo=ImgInfo(fileMd5=[51, -16, 32, 46, -12, 6, -112, 67, -24, 48, 112, -3, -87, 94, -13, 53], fileType=1000, fileSize=3084, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:06:36 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:06:36 V/Net 2504637063: Recv: FileExists(fileId=2243415875, fileInfo=ImgInfo(fileMd5=[66, 111, 35, 98, 89, 40, -8, -102, 92, -63, 47, -69, -10, -119, -61, 68], fileType=1000, fileSize=3050, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:06:36 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:06:36 V/Net 2504637063: Recv: FileExists(fileId=2348983648, fileInfo=ImgInfo(fileMd5=[74, -24, 26, 70, -120, -42, -97, -105, 30, 33, -114, -83, 40, 70, -39, -106], fileType=1000, fileSize=2933, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:06:36 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:06:36 V/Net 2504637063: Recv: FileExists(fileId=2901625876, fileInfo=ImgInfo(fileMd5=[109, -88, 35, 63, -28, -119, -78, -26, 2, 8, -93, -32, 25, 2, 30, -108], fileType=1000, fileSize=2811, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:06:36 V/Net 2504637063: Send: ImgStore.GroupPicUp[0m
+[0m2021-04-21 17:06:37 V/Net 2504637063: Recv: FileExists(fileId=3120377802, fileInfo=ImgInfo(fileMd5=[44, -55, -69, -100, 26, -26, -93, 32, -49, -62, -64, -19, 58, 99, -28, -25], fileType=1000, fileSize=2985, fileWidth=0, fileHeight=0))[0m
+[0m2021-04-21 17:06:37 V/Net 2504637063: Send: MultiMsg.ApplyUp[0m
+[0m2021-04-21 17:06:37 V/Net 2504637063: Recv: MultiMsg.ApplyUp.Response.RequireUpload(proto=net.mamoe.mirai.internal.network.protocol.data.proto.MultiMsg$MultiMsgApplyUpRsp@185e5467)[0m
+[0m2021-04-21 17:06:37 V/Net 2504637063: [Highway] Uploading group long message to 61.241.43.180:443, size=1.34 KiB[0m
+[0m2021-04-21 17:06:37 V/Net 2504637063: [Highway] Uploading group long message: succeed at 3 KiB/s[0m
+[0m2021-04-21 17:06:37 V/Net 2504637063: Send: MessageSvc.PbSendMsg[0m
+[0m2021-04-21 17:06:38 V/Net 2504637063: Recv: MessageSvcPbSendMsg.Response.SUCCESS[0m
+[0m2021-04-21 17:08:13 V/Net 2504637063: Send: Heartbeat.Alive[0m
+[0m2021-04-21 17:08:13 V/Net 2504637063: Recv: Heartbeat.Alive.Response[0m
+[92m2021-04-21 17:11:23 I/Net 2504637063: Connected to server 125.94.60.146:80[0m
+[0m2021-04-21 17:11:23 V/Net 2504637063: Send: wtlogin.login[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Recv: LoginPacketResponse.Success[0m
+[92m2021-04-21 17:11:24 I/Net 2504637063: Login successful[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Send: StatSvc.register[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Recv: Response(StatSvc.register)[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Send: StatSvc.GetDevLoginInfo[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Recv: StatSvc.GetDevLoginInfo.Response(deviceList.size=1)[0m
+[92m2021-04-21 17:11:24 I/Net 2504637063: Start loading friend list...[0m
+[92m2021-04-21 17:11:24 I/Net 2504637063: Start loading group list...[0m
+[92m2021-04-21 17:11:24 I/Net 2504637063: Start loading stranger list...[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Send: friendlist.GetTroopListReqV2[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Send: friendlist.getFriendGroupList[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Send: OidbSvc.0x5d2_0[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Recv: network.protocol.packet.list.StrangerList$GetStrangerList$Response@45c40c46[0m
+[92m2021-04-21 17:11:24 I/Net 2504637063: Successfully loaded stranger list: 0 in total[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Loading friend list: 9/9[0m
+[92m2021-04-21 17:11:24 I/Net 2504637063: Successfully loaded friend list: 9 in total[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Recv: FriendList.GetFriendGroupList.Response[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Send: friendlist.GetTroopMemberListReq[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Recv: FriendList.GetTroopMemberList.Response[0m
+[92m2021-04-21 17:11:24 I/Net 2504637063: Successfully loaded group list: 3 in total.[0m
+[92m2021-04-21 17:11:24 I/Net 2504637063: Syncing friend message history...[0m
+[92m2021-04-21 17:11:24 I/Net 2504637063: Awaiting ConfigPushSvc.PushReq.[0m
+[0m2021-04-21 17:11:24 V/Net 2504637063: Send: MessageSvc.PbGetMsg[0m
+[0m2021-04-21 17:11:25 V/Net 2504637063: Send: MessageSvc.PbDeleteMsg[0m
+[92m2021-04-21 17:11:25 I/Net 2504637063: Syncing friend message history: Success.[0m
+[96m2021-04-21 17:11:27 D/Net 2504637063: Received unknown commandName: ConfigPushSvc.PushDomain[0m
+[0m2021-04-21 17:11:27 V/Net 2504637063: Recv: ConfigPushSvc.PushReq.PushReqResponse.Success[0m
+[0m2021-04-21 17:11:27 V/Net 2504637063: Send: ConfigPushSvc.PushResp[0m
+[92m2021-04-21 17:11:27 I/Net 2504637063: ConfigPushSvc.PushReq: Success.[0m

@@ -16,6 +16,9 @@ import java.io.InputStream;
 
 public class TYMatchQuery {
     String path = "./data/Mirai-300query/300headPicture/";
+    String pathData = "./data/Mirai-300query/300ICUData/";
+    String fileForBind = "Bind.json";
+    String urlFor300pic ="https://300report.jumpw.com/static/images/";
     tyPictureSave tyPictureSave = new tyPictureSave();
     resizePicture resizePicture = new resizePicture();
     httpTool httpTool = new httpTool();
@@ -31,17 +34,16 @@ public class TYMatchQuery {
         if(str.contains(prx)){
             if(str.length()>=(index+22)){
                 fastQuery = str.substring(index+22);
-            }
-            JSONObject object1 = new JSONObject().fromObject(bind.getDatafromFile("bind"));
-            System.out.println(object1);
-            if(str.contains(command)){
-                int num = str.indexOf("：");
-                String name = str.substring(num+1);
-                MessageChain chain = MatchInfo(event,name);
-                event.getSource().getSubject().sendMessage(chain);
-            } else if (object1.containsKey(fastQuery)) {
-                MessageChain chain = MatchInfo(event,object1.getString(fastQuery));
-                event.getSource().getSubject().sendMessage(chain);
+                JSONObject object1 = new JSONObject().fromObject(bind.getDatafromFile(pathData+fileForBind));
+                if(str.contains(command)){
+                    int num = str.indexOf("：");
+                    String name = str.substring(num+1);
+                    MessageChain chain = MatchInfo(event,name);
+                    event.getSource().getSubject().sendMessage(chain);
+                } else if (object1.containsKey(fastQuery)) {
+                    MessageChain chain = MatchInfo(event,object1.getString(fastQuery));
+                    event.getSource().getSubject().sendMessage(chain);
+                }
             }
         }
     }
@@ -58,29 +60,39 @@ public class TYMatchQuery {
                 JSONObject tmpArray = MatchArray.getJSONObject(i);
                 JSONObject tmpObject = tmpArray.getJSONObject("Hero");
                 Icon = tmpObject.getString("IconFile");
-                File file = new File(path+Icon);
-                if(file.exists()){
-                    FileInputStream inputStream = new FileInputStream(file);
-                    ExternalResource resource = ExternalResource.create(inputStream);
-                    imgUrl = event.getSource().getSubject().uploadImage(resource).getImageId();
-                } else {
-                    InputStream inputStream = httpTool.getInputStream(Icon);
-                    if(tyPictureSave.downloadImg(inputStream,Icon)) {
-                        if(resizePicture.resizeImage(path+Icon,path+Icon,32,32,false)){
-                            System.out.println("图片修改存储成功");
-                            File fileA = new File(path+Icon);
-                            FileInputStream fileInputStream = new FileInputStream(file);
-                            ExternalResource resourceA = ExternalResource.create(fileInputStream);
-                            imgUrl = event.getSource().getSubject().uploadImage(resourceA).getImageId();
-                        }
-                    }
-                    else {
-                        System.out.println("图片修改失败，采用原大小");
+                System.out.println(Icon);
+                if(Icon.equals("")){
+                    File fileA = new File(path+"404.jpg");
+                    FileInputStream fileInputStream = new FileInputStream(fileA);
+                    ExternalResource resourceA = ExternalResource.create(fileInputStream);
+                    imgUrl = event.getSource().getSubject().uploadImage(resourceA).getImageId();
+                }
+                else {
+                    File file = new File(path+Icon);
+                    if(file.exists()){
+                        FileInputStream inputStream = new FileInputStream(file);
                         ExternalResource resource = ExternalResource.create(inputStream);
                         imgUrl = event.getSource().getSubject().uploadImage(resource).getImageId();
+                    } else {
+                        InputStream inputStream = httpTool.getInputStream(urlFor300pic+Icon);
+                        if(tyPictureSave.downloadImg(inputStream,path+Icon)) {
+                            if(resizePicture.resizeImage(path+Icon,path+Icon,32,32,false)){
+                                System.out.println("图片修改存储成功");
+                                File fileA = new File(path+Icon);
+                                FileInputStream fileInputStream = new FileInputStream(fileA);
+                                ExternalResource resourceA = ExternalResource.create(fileInputStream);
+                                imgUrl = event.getSource().getSubject().uploadImage(resourceA).getImageId();
+                            }
+                        }
+                        else {
+                            System.out.println("图片修改失败，采用原大小");
+                            ExternalResource resource = ExternalResource.create(inputStream);
+                            imgUrl = event.getSource().getSubject().uploadImage(resource).getImageId();
+                        }
+                        inputStream.close();
                     }
-                    inputStream.close();
                 }
+
                 INFO += "[mirai:image:"+imgUrl+"]";
                 if(tmpArray.getInt("MatchType")==1)
                     INFO += "\t比赛类型：竞技场";
